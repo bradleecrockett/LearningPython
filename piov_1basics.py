@@ -45,6 +45,11 @@ print("5 % 2 =", 5 % 2)
 print("5 ** 2 =", 5 ** 2)
 print("5 // 2 =", 5 // 2)
 print("Pi = ", math.pi)
+
+# round can help you... round numbers
+# side notefloats should not use == without rounding
+print("Pi = ", round(math.pi, 5))
+
 print("Tau= ", math.tau)
 
 # Order of Operation states * and / is performed before + and -
@@ -78,3 +83,4 @@ print("newlines")
 
 # You can print a string multiple times with *
 print('\n' * 5)
+print("Just skipped 5 lines")
