@@ -5,10 +5,10 @@ Before you run the program, I suggest that you read the code first and write on 
 
 The code is primarily taken from the amazing tutorials of Derek Banas.
 
-```Python
+```python
 def learn(input): 
-  if(input == maxEffort)
-    return knowledge + gratification + pride + respect
+  if(input == max_effort)
+    return 'knowledge' + 'gratification' + 'pride' + 'respect'
   else
-    return frustration + disappointment
+    return 'frustration' + 'disappointment'
 ```
