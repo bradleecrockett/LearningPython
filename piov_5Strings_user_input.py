@@ -5,10 +5,15 @@ import sys
 # USER INPUT -------------
 print('What is your name?')
 
-# Stores everything typed up until ENTER
-name = sys.stdin.readline()
+# Stores everything typed up until ENTER in the variable called name
+# name = sys.stdin.readline()
+name = input()
+
 
 print('Hello', name)
+
+# alternatively
+# print('Hello ' + name)
 
 # STRINGS -------------
 # String functions are very helpful
@@ -28,7 +33,8 @@ print(long_string[:-5])
 print(long_string[:4] + " be there")
 
 # String formatting
-print("%c is my %s letter and my number %d number is %.5f" % ('X', 'favorite', 1, .14))
+print("%c is my %s letter and my number %d number is %.5f" %
+      ('X', 'favorite', 1, .14))
 
 # Capitalizes the first letter
 print(long_string.capitalize())
