@@ -68,10 +68,6 @@ like everyone else" '''
 
 print(quote + multi_line_quote)
 
-# To embed a string in output use %s
-# To embed a float in output use %f
-# To embed an int in output use %d
-print("%s %d %s %f" % ('I like the quote', number, multi_line_quote, number))
 
 # You can also use concatenation but you need to cast the values as a String (str)
 # The result is similar but the accuracy of the float is different
