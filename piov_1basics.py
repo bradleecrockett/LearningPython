@@ -89,7 +89,7 @@ name = input("Enter your name: ")
 
 print("Hello " + name + ". Nice to meet you.")
 
-# If you don't stor ethe user input in a variable, your program
+# If you don't store the user input in a variable, your program
 # cannot use that information later
 input("How is your day? ")
 
@@ -101,7 +101,7 @@ print(type(num))
 
 # this causes an error because anything that the user enters is string type data
 # we can not square a String...
-print("You favorite number is: " + num + "\nThe square of your favorite number is: " + num**2)
+print("Your favorite number is: " + num + "\nThe square of your favorite number is: " + num**2)
 
 # Instead we need to convert or cast the user input to a numerical data type.
 # we can use the int() or float() or eval() functions to do that.
