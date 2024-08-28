@@ -80,3 +80,31 @@ print("newlines")
 # You can print a string multiple times with *
 print('\n' * 5)
 print("Just skipped 5 lines")
+
+
+# User input
+# create a variable to store the user input
+# and call the input() function to take user input()
+name = input("Enter your name: ")
+
+print("Hello " + name + ". Nice to meet you.")
+
+# If you don't stor ethe user input in a variable, your program
+# cannot use that information later
+input("How is your day? ")
+
+num = input("What is your favorite number? ")
+# print the type of data entered
+print(type(num))
+# num = eval(num)
+# print(type(num))
+
+# this causes an error because anything that the user enters is string type data
+# we can not square a String...
+print("You favorite number is: " + num + "\nThe square of your favorite number is: " + num**2)
+
+# Instead we need to convert or cast the user input to a numerical data type.
+# we can use the int() or float() or eval() functions to do that.
+# Uncomment lines 99 and 100 above then run the code again. 
+
+# Now you should see a different error. Look at line 74 to see if you can fix the error.
